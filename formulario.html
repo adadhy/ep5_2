@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jordam</title>
+        <link rel="stylesheet" href="dadi.css">
+    </head>
+    <body class="seg">
+        <header class="cab">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a><h1 class="nome">jordam</h1>
+            <div class="coisinha">
+                <a href="formulario.html"><img class="perfil" src="img/perfil.png" width="40px"></a>
+                <a href="carinho.html"><img class="carim" src="img/carim.png" width="40px"></a>
+                <a href="#"><img class="con" src="img/confi.png" width="40px"></a>
+            </div>
+        </header>
+        <main class="prin">
+            <div>
+                <h1>Cadastro</h1>
+                <p>Preencha os dados completos para cadastro</p>
+            </div>
+            <form action="#" method="post">
+                <fieldset>
+                    <div class="bloco">
+                        <label for="nome_aluno">Nome</label>
+                        <input type="text" name="nome_aluno" id="nome_aluno" placeholder="primeiro nome">
+                    </div>
+                    <br>
+                    <div class="bloco">
+                        <label for="sobrenome_aluno">Sobrenome</label>
+                        <input type="text" name="sobrenome_aluno" id="sobrenome_aluno">
+                    </div>
+                    <br>
+                    <div class="bloco">
+                        <label for="email_aluno">E-mail</label>
+                        <input type="email" name="email_aluno" id="email_aluno">
+                    </div>
+                    <br>
+                    <div class="bloco">
+                        <label for="senha_aluno">Senha</label>
+                        <input type="password" name="senha_aluno" id="senha_aluno">
+                    </div>
+                    <br>
+                    <div class="bloco">
+                        <label>Qual seu sexo</label>
+                        <div class="letra_normal">
+                            <label>
+                                <input type="radio" name="turma_aluno" id="turma_aluno" value="2anem">masculino
+                            </label>
+                            <label>
+                                <input type="radio" name="turma_aluno" id="turma_aluno" value="2bnem">femenino
+                            </label>
+                            <label>
+                                <input type="radio" name="turma_aluno" id="turma_aluno" value="2ads">uma hr decide
+                            </label>
+                            <label>
+                                <input type="radio" name="turma_aluno" id="turma_aluno" value="2bds">preifro nao dizer
+                            </label>
+                        </div>
+                    </div>
+                    <br>    
+                    <label for="melhor_materia">Qual a sua idade?</label>
+                    <select name="melhor_materia" id="melhor_materia">
+                        <option selected disabled value="">Selecione</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>outro</option>
+                    </select><br>
+                    <br>
+                    <div class="bloco">
+                        <label for="">Conte um pouco de você:</label><br>
+                        <textarea name="historia" id="histora" cols="48" rows="10"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>        
+        </main>
+        <footer class="rod">
+            <h1>alguma coisa</h1>
+        </footer>
+    </body>
+</html>

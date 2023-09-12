@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jordam</title>
+        <link rel="stylesheet" href="dadi.css">
+    </head>
+    <body class="seg">
+        <header class="cab">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a><h1 class="nome">jordam</h1>
+            <div class="coisinha">
+                <a href="formulario.html"><img class="perfil" src="img/perfil.png" width="40px"></a>
+                <a href="carinho.html"><img class="carim" src="img/carim.png" width="40px"></a>
+                <a href="#"><img class="con" src="img/confi.png" width="40px"></a>
+            </div>
+        </header>
+        <main class="prin">
+            <div class="content">
+                <section>
+                    <table>
+                    <thead>
+                        <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <img src="img/basquete.jpg" width="150px" height="200px">
+                                        <div class="info">
+                                            <div class="name">Mutação</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>R$ 15,00</td>
+                                <td>
+                                    <div data-app="product.quantity" id="quantidade">
+                                        <span id="span_erro_carrinho" class="blocoAlerta" style="display:none;">Selecione uma opção para variação do produto</span>      
+                                        <input type="button" id="plus" value='-' onclick="process(-1)" />
+                                        <input id="quant" name="quant" class="text" size="1" type="text" value="1" maxlength="5" />
+                                        <input type="button" id="minus" value='+' onclick="process(1)">
+                                    </div>
+                                </td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section> 
+                </div>
+        </main>
+        <footer class="rod">
+            <h1>alguma coisa</h1>
+        </footer>
+    </body>
+</html>
